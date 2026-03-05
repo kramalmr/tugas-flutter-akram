@@ -12,8 +12,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(backgroundColor: Colors.yellow, title: Text("judul")),
         body: Column(
-          spacing: 15,
+          spacing: 5,
           children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -24,21 +25,21 @@ class MainApp extends StatelessWidget {
                   Container(
                     width: double.infinity,
                     height: 200,
-                    decoration: BoxDecoration(color: Colors.black),
+                    decoration: BoxDecoration(color: Colors.red),
                   ),
                   Row(
                     spacing: 10,
                     children: [
                       Expanded(
                         child: Container(
-                          height: 200,
-                          decoration: BoxDecoration(color: Colors.black),
+                          height: 150,
+                          decoration: BoxDecoration(color: Colors.red),
                         ),
                       ),
                       Expanded(
                         child: Container(
-                          height: 200,
-                          decoration: BoxDecoration(color: Colors.black),
+                          height: 150,
+                          decoration: BoxDecoration(color: Colors.red),
                         ),
                       ),
                     ],
@@ -52,7 +53,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -60,7 +61,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -68,7 +69,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -76,7 +77,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -84,7 +85,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -92,7 +93,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
@@ -100,7 +101,7 @@ class MainApp extends StatelessWidget {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Colors.black,
+                            color: Colors.red,
                             borderRadius: BorderRadius.circular(100),
                           ),
                         ),
